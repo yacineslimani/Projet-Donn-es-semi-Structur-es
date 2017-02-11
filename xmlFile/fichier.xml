@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<metadata created="2016-12-22T16:42:48.452Z" xmlns="http://musicbrainz.org/ns/mmd-2.0#"
+	xmlns:ext="http://musicbrainz.org/ns/ext#-2.0">
+	<recording-list count="10365" offset="0">
+		<recording id="853fc194-64fb-4e34-a32f-222c5ec7f6b1"
+			ext:score="100">
+			<title>Fight Fire With Fire</title>
+			<length>360160</length>
+			<disambiguation>live, 1999-07-24: Woodstock '99: Rome, NY, USA
+			</disambiguation>
+			<artist-credit>
+				<name-credit>
+					<artist id="65f4f0c5-ef9e-490c-aee3-909e7ae6b2ab">
+						<name>Metallica</name>
+						<sort-name>Metallica</sort-name>
+						<alias-list>
+							<alias sort-name="メタリカ">メタリカ</alias>
+							<alias locale="ko_KR" sort-name="메탈리카" primary="primary">메탈리카</alias>
+							<alias sort-name="Metalica">Metalica</alias>
+							<alias locale="en" sort-name="Metallica" type="Artist name"
+								primary="primary">Metallica</alias>
+						</alias-list>
+					</artist>
+				</name-credit>
+			</artist-credit>
+			<release-list>
+				<release id="04f61633-2983-4503-b16b-b49d43641a16">
+					<title>1999-07-24: Woodstock '99: Rome, NY, USA (disc 2)</title>
+					<status>Bootleg</status>
+					<release-group id="e5dadc00-8c0b-33ae-9b16-c8559d9f39ac"
+						type="Live">
+						<primary-type>Album</primary-type>
+						<secondary-type-list>
+							<secondary-type>Live</secondary-type>
+						</secondary-type-list>
+					</release-group>
+					<medium-list>
+						<track-count>9</track-count>
+						<medium>
+							<position>1</position>
+							<format></format>
+							<track-list count="9" offset="0">
+								<track id="391ed939-703c-3a4e-afc9-b4d184d03153">
+									<number>1</number>
+									<title>Fight Fire With Fire</title>
+									<length>360160</length>
+								</track>
+							</track-list>
+						</medium>
+					</medium-list>
+				</release>
+			</release-list>
+		</recording>
+		<recording id="c965db85-8a6c-449c-bd8e-1486974152ae"
+			ext:score="100">
+			<title>Nothing Else Matters</title>
+			<length>344560</length>
+			<disambiguation>live, 1999-07-24: Woodstock '99: Rome, NY, USA
+			</disambiguation>
+			<artist-credit>
+				<name-credit>
+					<artist id="65f4f0c5-ef9e-490c-aee3-909e7ae6b2ab">
+						<name>Metallica</name>
+						<sort-name>Metallica</sort-name>
+						<alias-list>
+							<alias sort-name="メタリカ">メタリカ</alias>
+							<alias locale="ko_KR" sort-name="메탈리카" primary="primary">메탈리카</alias>
+							<alias sort-name="Metalica">Metalica</alias>
+							<alias locale="en" sort-name="Metallica" type="Artist name"
+								primary="primary">Metallica</alias>
+						</alias-list>
+					</artist>
+				</name-credit>
+			</artist-credit>
+			<release-list>
+				<release id="04f61633-2983-4503-b16b-b49d43641a16">
+					<title>1999-07-24: Woodstock '99: Rome, NY, USA (disc 2)</title>
+					<status>Bootleg</status>
+					<release-group id="e5dadc00-8c0b-33ae-9b16-c8559d9f39ac"
+						type="Live">
+						<primary-type>Album</primary-type>
+						<secondary-type-list>
+							<secondary-type>Live</secondary-type>
+						</secondary-type-list>
+					</release-group>
+					<medium-list>
+						<track-count>9</track-count>
+						<medium>
+							<position>1</position>
+							<format></format>
+							<track-list count="9" offset="1">
+								<track id="147bcde9-171c-3deb-8fc8-968fcf1860df">
+									<number>2</number>
+									<title>Nothing Else Matters</title>
+									<length>344560</length>
+								</track>
+							</track-list>
+						</medium>
+					</medium-list>
+				</release>
+			</release-list>
+		</recording>
+		<recording id="108834c3-09d2-4d36-b8c0-7221ddec0f72"
+			ext:score="100">
+			<title>Seek &amp; Destroy</title>
+			<length>434053</length>
+			<disambiguation>live, 1999-07-24: Woodstock '99: Rome, NY, USA
+			</disambiguation>
+			<artist-credit>
+				<name-credit>
+					<artist id="65f4f0c5-ef9e-490c-aee3-909e7ae6b2ab">
+						<name>Metallica</name>
+						<sort-name>Metallica</sort-name>
+						<alias-list>
+							<alias sort-name="メタリカ">メタリカ</alias>
+							<alias locale="ko_KR" sort-name="메탈리카" primary="primary">메탈리카</alias>
+							<alias sort-name="Metalica">Metalica</alias>
+							<alias locale="en" sort-name="Metallica" type="Artist name"
+								primary="primary">Metallica</alias>
+						</alias-list>
+					</artist>
+				</name-credit>
+			</artist-credit>
+			<release-list>
+				<release id="04f61633-2983-4503-b16b-b49d43641a16">
+					<title>1999-07-24: Woodstock '99: Rome, NY, USA (disc 2)</title>
+					<status>Bootleg</status>
+					<release-group id="e5dadc00-8c0b-33ae-9b16-c8559d9f39ac"
+						type="Live">
+						<primary-type>Album</primary-type>
+						<secondary-type-list>
+							<secondary-type>Live</secondary-type>
+						</secondary-type-list>
+					</release-group>
+					<medium-list>
+						<track-count>9</track-count>
+						<medium>
+							<position>1</position>
+							<format></format>
+							<track-list count="9" offset="2">
+								<track id="b082d2e2-88bf-3e62-8cd6-be706ab294b5">
+									<number>3</number>
+									<title>Seek &amp; Destroy</title>
+									<length>434053</length>
+								</track>
+							</track-list>
+						</medium>
+					</medium-list>
+				</release>
+			</release-list>
+		</recording>
+		<recording id="8a9519df-cbd7-46d2-98ef-5259b0a84fd0"
+			ext:score="100">
+			<title>Creeping Death</title>
+			<length>410226</length>
+			<disambiguation>live, 1999-07-24: Woodstock '99: Rome, NY, USA
+			</disambiguation>
+			<artist-credit>
+				<name-credit>
+					<artist id="65f4f0c5-ef9e-490c-aee3-909e7ae6b2ab">
+						<name>Metallica</name>
+						<sort-name>Metallica</sort-name>
+						<alias-list>
+							<alias sort-name="メタリカ">メタリカ</alias>
+							<alias locale="ko_KR" sort-name="메탈리카" primary="primary">메탈리카</alias>
+							<alias sort-name="Metalica">Metalica</alias>
+							<alias locale="en" sort-name="Metallica" type="Artist name"
+								primary="primary">Metallica</alias>
+						</alias-list>
+					</artist>
+				</name-credit>
+			</artist-credit>
+			<release-list>
+				<release id="04f61633-2983-4503-b16b-b49d43641a16">
+					<title>1999-07-24: Woodstock '99: Rome, NY, USA (disc 2)</title>
+					<status>Bootleg</status>
+					<release-group id="e5dadc00-8c0b-33ae-9b16-c8559d9f39ac"
+						type="Live">
+						<primary-type>Album</primary-type>
+						<secondary-type-list>
+							<secondary-type>Live</secondary-type>
+						</secondary-type-list>
+					</release-group>
+					<medium-list>
+						<track-count>9</track-count>
+						<medium>
+							<position>1</position>
+							<format></format>
+							<track-list count="9" offset="3">
+								<track id="1c67244b-1814-358a-ac96-bbe0c9a77a8a">
+									<number>4</number>
+									<title>Creeping Death</title>
+									<length>410226</length>
+								</track>
+							</track-list>
+						</medium>
+					</medium-list>
+				</release>
+			</release-list>
+		</recording>
+		<recording id="3256bfdc-9f12-424c-8e3e-97ec9f22118a"
+			ext:score="100">
+			<title>Instrumental</title>
+			<length>110626</length>
+			<disambiguation>live, 1999-07-24: Woodstock '99: Rome, NY, USA
+			</disambiguation>
+			<artist-credit>
+				<name-credit>
+					<artist id="65f4f0c5-ef9e-490c-aee3-909e7ae6b2ab">
+						<name>Metallica</name>
+						<sort-name>Metallica</sort-name>
+						<alias-list>
+							<alias sort-name="メタリカ">メタリカ</alias>
+							<alias locale="ko_KR" sort-name="메탈리카" primary="primary">메탈리카</alias>
+							<alias sort-name="Metalica">Metalica</alias>
+							<alias locale="en" sort-name="Metallica" type="Artist name"
+								primary="primary">Metallica</alias>
+						</alias-list>
+					</artist>
+				</name-credit>
+			</artist-credit>
+			<release-list>
+				<release id="04f61633-2983-4503-b16b-b49d43641a16">
+					<title>1999-07-24: Woodstock '99: Rome, NY, USA (disc 2)</title>
+					<status>Bootleg</status>
+					<release-group id="e5dadc00-8c0b-33ae-9b16-c8559d9f39ac"
+						type="Live">
+						<primary-type>Album</primary-type>
+						<secondary-type-list>
+							<secondary-type>Live</secondary-type>
+						</secondary-type-list>
+					</release-group>
+					<medium-list>
+						<track-count>9</track-count>
+						<medium>
+							<position>1</position>
+							<format></format>
+							<track-list count="9" offset="4">
+								<track id="fc813b48-a9fe-30b3-86da-2f65ad9d7647">
+									<number>5</number>
+									<title>Instrumental</title>
+									<length>110626</length>
+								</track>
+							</track-list>
+						</medium>
+					</medium-list>
+				</release>
+			</release-list>
+		</recording>
+	</recording-list>
+</metadata>
