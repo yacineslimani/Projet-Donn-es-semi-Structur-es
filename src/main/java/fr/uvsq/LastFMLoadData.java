@@ -22,7 +22,7 @@ public class LastFMLoadData {
 		try{
 			System.out.println(url);
 			BufferedReader urlReader = new BufferedReader(new InputStreamReader(new URL(url).openStream()));
-			FileWriter localFile = new FileWriter(new File("xmlFile/fichierLastFM.xml"));
+			FileWriter localFile = new FileWriter(new File("src/main/resources/xmlFile/MusicBrainz.xml"));
 
 			System.out.println("Telechargement términé");
 
