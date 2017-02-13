@@ -6,18 +6,17 @@ import java.io.FileWriter;
 import java.io.InputStreamReader;
 import java.net.URL;
 
-public class MusicbrainzLoadData {
-
+public class LastFMLoadData {
 	String url;
 
-	public MusicbrainzLoadData() {
+	public LastFMLoadData() {
 		super();
 
 	}
 
 	public void getSongsByAuthor (String artist){
 //		this.url= "http://musicbrainz.org/ws/2/recording/?query=artist:"+artist+"&limit=5";
-		this.url= "http://ws.audioscrobbler.com/2.0/?method=user.getfriends&user=rj&api_key=adbf8a7edee529a5fea225961411ab69";
+		this.url= "http://ws.audioscrobbler.com/2.0/?method=user.getfriends&user=rj&api_key=adbf8a7edee529a5fea225961411ab69&limit=5";
 		
 
 		try{
@@ -39,7 +38,4 @@ public class MusicbrainzLoadData {
 			System.out.println("Erreur : " + e);
 		}
 	}
-
-
-
 }
