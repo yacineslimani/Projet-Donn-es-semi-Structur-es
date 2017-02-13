@@ -47,7 +47,7 @@ public class DeezerLoadData {
 		
 	
 		TransformerFactory tFactory = TransformerFactory.newInstance();
-	    Transformer transformer = tFactory.newTransformer(new StreamSource("src/main/resources/xmlFile/deezerSongs.xsl"));
+	    Transformer transformer = tFactory.newTransformer(new StreamSource("src/main/resources/xslFiles/deezerSongs.xsl"));
 	    transformer.transform(new StreamSource("src/main/resources/xmlFile/deezerSongs.xml"), new StreamResult("src/main/resources/xmlFile/deezerSongsRes.xml"));
         		
 	}
@@ -78,7 +78,7 @@ public class DeezerLoadData {
 		
 	
 		TransformerFactory tFactory = TransformerFactory.newInstance();
-	    Transformer transformer = tFactory.newTransformer(new StreamSource("src/main/resources/xmlFile/deezerAlbums.xsl"));
+	    Transformer transformer = tFactory.newTransformer(new StreamSource("src/main/resources/xslFiles/deezerAlbums.xsl"));
 	    transformer.transform(new StreamSource("src/main/resources/xmlFile/deezerAlbums.xml"), new StreamResult("src/main/resources/xmlFile/deezerAlbumsRes.xml"));
         		
 	}
@@ -109,7 +109,7 @@ public class DeezerLoadData {
 		}		
 	
 		TransformerFactory tFactory = TransformerFactory.newInstance();
-	    Transformer transformer = tFactory.newTransformer(new StreamSource("src/main/resources/xmlFile/deezerSongs.xsl"));
+	    Transformer transformer = tFactory.newTransformer(new StreamSource("src/main/resources/xslFiles/deezerSongs.xsl"));
 	    transformer.transform(new StreamSource("src/main/resources/xmlFile/deezerInfosSong.xml"), new StreamResult("src/main/resources/xmlFile/deezerInfosRes.xml"));
         		
 	}
