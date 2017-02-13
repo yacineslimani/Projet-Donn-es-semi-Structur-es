@@ -2,8 +2,6 @@ package fr.uvsq;
 
 
 
-import fr.uvsq.beans.Album;
-import fr.uvsq.dao.AlbumDAOImpl;
 
 public class Main {
 
@@ -15,11 +13,11 @@ public class Main {
 		
 //		musicbrainzLoadData.getSongsByAuthor("metallica");
 		
-		AlbumDAOImpl albumDAOImpl = new AlbumDAOImpl();
-		Album album = new Album();
-		album.setAuthor("aznavour");
-		album.setTitle("la mamma");
-		albumDAOImpl.insert(album);
+//		AlbumDAOImpl albumDAOImpl = new AlbumDAOImpl();
+//		Album album = new Album();
+//		album.setAuthor("aznavour");
+//		album.setTitle("la mamma");
+//		albumDAOImpl.insert(album);
 	}
 	
 	
