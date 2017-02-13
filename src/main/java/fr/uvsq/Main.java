@@ -18,9 +18,4 @@ public class Main {
 		album.setTitle("la mamma");
 		albumDAOImpl.insert(album);
 	}
-	
-	
-	
-	
-
 }
