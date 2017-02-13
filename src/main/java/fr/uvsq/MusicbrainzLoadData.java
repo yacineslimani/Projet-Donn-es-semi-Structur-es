@@ -16,14 +16,15 @@ public class MusicbrainzLoadData {
 	}
 
 	public void getSongsByAuthor (String artist){
-		
+			
+		this.url ="http://musicbrainz.org/ws/2/recording/?query=artist:"+artist+"&limit=50";
+
+
 		try{
 			System.out.println(url);
 			BufferedReader urlReader = new BufferedReader(new InputStreamReader(new URL(url).openStream()));
-
-			
 			FileWriter localFile = new FileWriter(new File("src/main/resources/xmlFile/MusicBrainz.xml"));
-
+					
 			System.out.println("Telechargement términé");
 			String s;
 			while((s = urlReader.readLine()) != null){
@@ -37,6 +38,30 @@ public class MusicbrainzLoadData {
 		}
 	}
 
+	
+	
+	public void getAlbumByAuthor (String artist){
+		
+		this.url ="http://musicbrainz.org/ws/2/recording/?query=artist:"+artist+"&limit=50";
+
+		try{
+			System.out.println(url);
+			BufferedReader urlReader = new BufferedReader(new InputStreamReader(new URL(url).openStream()));
+			FileWriter localFile = new FileWriter(new File("src/main/resources/xmlFile/MusicBrainzSong.xml"));
+
+
+			System.out.println("Telechargement términé");
+			String s;
+			while((s = urlReader.readLine()) != null){
+				localFile.write(s);
+			}
+			urlReader.close();
+			localFile.close();
+		}
+		catch(Exception e){
+			System.out.println("Erreur : " + e);
+		}
+	}
 
 
 }
