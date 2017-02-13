@@ -2,31 +2,26 @@ package fr.uvsq;
 
 import java.sql.SQLException;
 
+import javax.xml.transform.TransformerException;
+
 
 
 
 public class Main {
 
-	public static void main(String[] args) throws SQLException {
+	public static void main(String[] args) throws SQLException, TransformerException {
 		
-//		MusicbrainzLoadData musicbrainzLoadData = new MusicbrainzLoadData();
-//		LastFMLoadData lfdd = new LastFMLoadData();
-//		lfdd.getSongsByAuthor("");
+		
+		DeezerLoadData lfdd = new DeezerLoadData();
+		lfdd.getSongsByAuthor("eminem");		
+//		lfdd.getAlbumsByAuthor("eminem");
+//		lfdd.getInfoForSongTitle("bla");			
 		
 		XMLtoDB xmlDb = new XMLtoDB();
-		xmlDb.insertInSong("test.xml");
+		xmlDb.insertInSong("deezerSongsRes.xml");
+//		xmlDb.insertInAlbum("deezerAlbumsRes.xml");
+//		xmlDb.insertInSong("deezerInfosRes.xml");
 		
-//		musicbrainzLoadData.getSongsByAuthor("metallica");
-		
-//		AlbumDAOImpl albumDAOImpl = new AlbumDAOImpl();
-//		Album album = new Album();
-//		album.setAuthor("aznavour");
-//		album.setTitle("la mamma");
-//		albumDAOImpl.insert(album);
-	}
-	
-	
-	
-	
-
+				
+	}	
 }

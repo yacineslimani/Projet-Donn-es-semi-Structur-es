@@ -7,7 +7,7 @@ import java.sql.DriverManager;
 import java.sql.SQLException;
 
 public class ConnexionBD {
-	String url = "jdbc:mysql://localhost:3306/XMLtoDB";
+	String url = "jdbc:mysql://localhost:3306/music";
 	String utilisateur = "root";
 	String motDePasse = "ZoBaina2";
 	static Connection connect;
