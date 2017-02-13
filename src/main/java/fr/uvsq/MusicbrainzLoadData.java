@@ -16,17 +16,14 @@ public class MusicbrainzLoadData {
 	}
 
 	public void getSongsByAuthor (String artist){
-		this.url= "http://musicbrainz.org/ws/2/recording/?query=artist:"+artist+"&limit=5";
+		this.url= "http://musicbrainz.org/ws/2/recording/?query=artist:"+artist+"&limit=3";
 
 		try{
 			System.out.println(url);
 			BufferedReader urlReader = new BufferedReader(new InputStreamReader(new URL(url).openStream()));
-			FileWriter localFile = new FileWriter(new File("xmlFile/fichier.xml"));
-
+			FileWriter localFile = new FileWriter(new File("src/main/resources/xmlFile/MusicBrainz.xml"));
 			System.out.println("Telechargement términé");
-
 			String s;
-
 			while((s = urlReader.readLine()) != null){
 				localFile.write(s);
 			}
