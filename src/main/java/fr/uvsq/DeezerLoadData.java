@@ -5,6 +5,7 @@ import java.io.File;
 import java.io.FileWriter;
 import java.io.InputStreamReader;
 import java.net.URL;
+import java.sql.SQLException;
 
 import javax.xml.parsers.DocumentBuilder;
 import javax.xml.transform.Transformer;
@@ -15,14 +16,15 @@ import javax.xml.transform.stream.StreamResult;
 import javax.xml.transform.stream.StreamSource;
 
 public class DeezerLoadData {
-	String url;
+	String url;	
+	DataBaseOperation dbo = new DataBaseOperation();
 
 	public DeezerLoadData() {
 		super();
 
 	}
 
-	public void getSongsByAuthor (String author) throws TransformerException{
+	public void getSongsByAuthor (String author) throws TransformerException, SQLException{
 //		this.url= "http://api.deezer.com/search/track/?q="+author+"&output=xml";
 		this.url= "http://api.deezer.com/search?q=artist:\""+author+"\"&output=xml";
 
@@ -49,10 +51,11 @@ public class DeezerLoadData {
 		TransformerFactory tFactory = TransformerFactory.newInstance();
 	    Transformer transformer = tFactory.newTransformer(new StreamSource("src/main/resources/xslFiles/deezerSongs.xsl"));
 	    transformer.transform(new StreamSource("src/main/resources/xmlFile/deezerSongs.xml"), new StreamResult("src/main/resources/xmlFile/deezerSongsRes.xml"));
-        		
+		
+	    dbo.insertInSong("deezerSongsRes.xml");
 	}
 	
-	public void getAlbumsByAuthor (String author) throws TransformerException{
+	public void getAlbumsByAuthor (String author) throws TransformerException, SQLException{
 //		this.url= "http://api.deezer.com/search/album/?q=" + author +"&output=xml&artist="+author;
 		this.url= "http://api.deezer.com/search/album/?q=artist:\""+ author +"\"&output=xml";
 		
@@ -80,10 +83,11 @@ public class DeezerLoadData {
 		TransformerFactory tFactory = TransformerFactory.newInstance();
 	    Transformer transformer = tFactory.newTransformer(new StreamSource("src/main/resources/xslFiles/deezerAlbums.xsl"));
 	    transformer.transform(new StreamSource("src/main/resources/xmlFile/deezerAlbums.xml"), new StreamResult("src/main/resources/xmlFile/deezerAlbumsRes.xml"));
-        		
+		
+	    dbo.insertInAlbum("deezerAlbumsRes.xml");
 	}
 	
-	public void getInfoForSongTitle (String title) throws TransformerException{
+	public void getInfoForSongTitle (String title) throws TransformerException, SQLException{
 //		this.url= "http://api.deezer.com/search/track/?q=" + title + "&output=xml";
 		this.url= "http://api.deezer.com/search?q=track:\""+title+"\"&output=xml";
 		
@@ -111,6 +115,7 @@ public class DeezerLoadData {
 		TransformerFactory tFactory = TransformerFactory.newInstance();
 	    Transformer transformer = tFactory.newTransformer(new StreamSource("src/main/resources/xslFiles/deezerSongs.xsl"));
 	    transformer.transform(new StreamSource("src/main/resources/xmlFile/deezerInfosSong.xml"), new StreamResult("src/main/resources/xmlFile/deezerInfosRes.xml"));
-        		
+		
+	    dbo.insertInSong("deezerInfosRes.xml");
 	}
 }
