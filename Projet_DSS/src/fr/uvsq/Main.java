@@ -23,24 +23,24 @@ public class Main {
 	MusicbrainzLoadData musicbrainz = new MusicbrainzLoadData();
 	
 	
-	public static void main(String[] args) throws SQLException, TransformerException, SAXException, IOException, ParserConfigurationException {
-		Main main = new Main();
-		List<String> songs = main.getSongsByAuthor("metallica");		
-		for (String song : songs){
-			System.out.println("Title = "+ song);
-		}
-				
-		List<String> albums = main.getAlbumsByAuthor("abba");				
-		for (String album : albums){
-			System.out.println("Title alb = "+ album);
-		}
-		
-//		List<Song> songsInfo = main.getInfoForSongTitle("baba");
-//		for (Song song : songsInfo){
-//			System.out.println("Title = "+ song.getAuthor());
+//	public static void main(String[] args) throws SQLException, TransformerException, SAXException, IOException, ParserConfigurationException {
+//		Main main = new Main();
+//		List<String> songs = main.getSongsByAuthor("metallica");		
+//		for (String song : songs){
+//			System.out.println("Title = "+ song);
 //		}
-		
-	}
+//				
+//		List<String> albums = main.getAlbumsByAuthor("abba");				
+//		for (String album : albums){
+//			System.out.println("Title alb = "+ album);
+//		}
+//		
+////		List<Song> songsInfo = main.getInfoForSongTitle("baba");
+////		for (Song song : songsInfo){
+////			System.out.println("Title = "+ song.getAuthor());
+////		}
+//		
+//	}
 
 	
 	public List<String> getSongsByAuthor (String author) throws SQLException, TransformerException, SAXException, IOException{
