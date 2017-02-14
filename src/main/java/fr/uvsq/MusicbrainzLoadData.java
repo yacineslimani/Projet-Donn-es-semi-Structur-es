@@ -19,10 +19,16 @@ public class MusicbrainzLoadData {
 			
 		this.url ="http://musicbrainz.org/ws/2/recording/?query=artist:"+artist+"&limit=3";
 
+
 		try{
 			System.out.println(url);
 			BufferedReader urlReader = new BufferedReader(new InputStreamReader(new URL(url).openStream()));
+
 			FileWriter localFile = new FileWriter(new File("src/main/resources/xmlFile/MusicBrainzSong.xml"));
+
+
+			
+					
 
 			System.out.println("Telechargement términé");
 			String s;
@@ -47,6 +53,7 @@ public class MusicbrainzLoadData {
 			System.out.println(url);
 			BufferedReader urlReader = new BufferedReader(new InputStreamReader(new URL(url).openStream()));
 			FileWriter localFile = new FileWriter(new File("src/main/resources/xmlFile/MusicBrainzAlbum.xml"));
+
 
 			System.out.println("Telechargement términé");
 			String s;
