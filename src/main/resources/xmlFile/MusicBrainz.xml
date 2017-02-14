@@ -1,6 +1,6 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <metadata created="2016-12-22T16:42:48.452Z" xmlns="http://musicbrainz.org/ns/mmd-2.0#"
-	xmlns:ext="http://musicbrainz.org/ns/ext#-2.0">
+ xmlns:ext="http://musicbrainz.org/ns/ext#-2.0">
 	<recording-list count="10365" offset="0">
 		<recording id="853fc194-64fb-4e34-a32f-222c5ec7f6b1"
 			ext:score="100">

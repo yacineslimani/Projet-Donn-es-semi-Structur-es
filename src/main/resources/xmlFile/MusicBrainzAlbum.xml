@@ -1,0 +1,644 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<metadata created="2017-02-13T18:09:48.796Z" xmlns="http://musicbrainz.org/ns/mmd-2.0#"
+	xmlns:ext="http://musicbrainz.org/ns/ext#-2.0">
+	<release-list count="647" offset="0">
+		<release id="88d2f13a-4d81-4551-ae96-60d7190f4591" ext:score="100">
+			<title>Master of Puppets</title>
+			<status>Official</status>
+			<text-representation>
+				<language>eng</language>
+				<script>Latn</script>
+			</text-representation>
+			<artist-credit>
+				<name-credit>
+					<artist id="65f4f0c5-ef9e-490c-aee3-909e7ae6b2ab">
+						<name>Metallica</name>
+						<sort-name>Metallica</sort-name>
+						<alias-list>
+							<alias sort-name="メタリカ">メタリカ</alias>
+							<alias locale="ko_KR" sort-name="메탈리카" primary="primary">메탈리카</alias>
+							<alias sort-name="Metalica">Metalica</alias>
+							<alias locale="en" sort-name="Metallica" type="Artist name"
+								primary="primary">Metallica</alias>
+						</alias-list>
+					</artist>
+				</name-credit>
+			</artist-credit>
+			<release-group id="3d00fb45-f8ab-3436-a8e1-b4bfc4d66913"
+				type="Album">
+				<primary-type>Album</primary-type>
+			</release-group>
+			<date>1989</date>
+			<country>CO</country>
+			<release-event-list>
+				<release-event>
+					<date>1989</date>
+					<area id="02b60d8d-7164-339d-868d-22d147d9f74a">
+						<name>Colombia</name>
+						<sort-name>Colombia</sort-name>
+						<iso-3166-1-code-list>
+							<iso-3166-1-code>CO</iso-3166-1-code>
+						</iso-3166-1-code-list>
+					</area>
+				</release-event>
+			</release-event-list>
+			<barcode>042283814127</barcode>
+			<label-info-list>
+				<label-info>
+					<catalog-number>838 141-2</catalog-number>
+					<label id="1b3b52a5-ef89-4f8b-8d5f-e15a7a58863b">
+						<name>Vertigo</name>
+					</label>
+				</label-info>
+			</label-info-list>
+			<medium-list count="1">
+				<track-count>8</track-count>
+				<medium>
+					<format>CD</format>
+					<disc-list count="0" />
+					<track-list count="8" />
+				</medium>
+			</medium-list>
+		</release>
+		<release id="abcc9a0c-169f-4c60-8322-4b3922fd3a5e" ext:score="100">
+			<title>Kill 'em All</title>
+			<status>Official</status>
+			<text-representation>
+				<language>eng</language>
+				<script>Latn</script>
+			</text-representation>
+			<artist-credit>
+				<name-credit>
+					<artist id="65f4f0c5-ef9e-490c-aee3-909e7ae6b2ab">
+						<name>Metallica</name>
+						<sort-name>Metallica</sort-name>
+						<alias-list>
+							<alias sort-name="メタリカ">メタリカ</alias>
+							<alias locale="ko_KR" sort-name="메탈리카" primary="primary">메탈리카</alias>
+							<alias sort-name="Metalica">Metalica</alias>
+							<alias locale="en" sort-name="Metallica" type="Artist name"
+								primary="primary">Metallica</alias>
+						</alias-list>
+					</artist>
+				</name-credit>
+			</artist-credit>
+			<release-group id="f44f4f73-a714-31a1-a4b8-bfcaaf311f50"
+				type="Album">
+				<primary-type>Album</primary-type>
+			</release-group>
+			<date>1989</date>
+			<country>CO</country>
+			<release-event-list>
+				<release-event>
+					<date>1989</date>
+					<area id="02b60d8d-7164-339d-868d-22d147d9f74a">
+						<name>Colombia</name>
+						<sort-name>Colombia</sort-name>
+						<iso-3166-1-code-list>
+							<iso-3166-1-code>CO</iso-3166-1-code>
+						</iso-3166-1-code-list>
+					</area>
+				</release-event>
+			</release-event-list>
+			<barcode>042283814226</barcode>
+			<label-info-list>
+				<label-info>
+					<catalog-number>838 142-2</catalog-number>
+					<label id="1b3b52a5-ef89-4f8b-8d5f-e15a7a58863b">
+						<name>Vertigo</name>
+					</label>
+				</label-info>
+			</label-info-list>
+			<medium-list count="1">
+				<track-count>10</track-count>
+				<medium>
+					<format>CD</format>
+					<disc-list count="0" />
+					<track-list count="10" />
+				</medium>
+			</medium-list>
+		</release>
+		<release id="7c6a16e8-3fbe-4d9a-b1da-cb6ccffb6770" ext:score="100">
+			<title>Orgullo, pasión, y gloria: Tres noches en La Ciudad de México
+			</title>
+			<status>Official</status>
+			<text-representation>
+				<language>eng</language>
+				<script>Latn</script>
+			</text-representation>
+			<artist-credit>
+				<name-credit>
+					<artist id="65f4f0c5-ef9e-490c-aee3-909e7ae6b2ab">
+						<name>Metallica</name>
+						<sort-name>Metallica</sort-name>
+						<alias-list>
+							<alias sort-name="メタリカ">メタリカ</alias>
+							<alias locale="ko_KR" sort-name="메탈리카" primary="primary">메탈리카</alias>
+							<alias sort-name="Metalica">Metalica</alias>
+							<alias locale="en" sort-name="Metallica" type="Artist name"
+								primary="primary">Metallica</alias>
+						</alias-list>
+					</artist>
+				</name-credit>
+			</artist-credit>
+			<release-group id="605b771b-c2b8-46f1-a4f1-832e9e573ad2"
+				type="Live">
+				<primary-type>Album</primary-type>
+				<secondary-type-list>
+					<secondary-type>Live</secondary-type>
+				</secondary-type-list>
+			</release-group>
+			<date>2009-12-10</date>
+			<country>AR</country>
+			<release-event-list>
+				<release-event>
+					<date>2009-12-10</date>
+					<area id="0df04709-c7d8-3b55-a6ea-f3e5069a947b">
+						<name>Argentina</name>
+						<sort-name>Argentina</sort-name>
+						<iso-3166-1-code-list>
+							<iso-3166-1-code>AR</iso-3166-1-code>
+						</iso-3166-1-code-list>
+					</area>
+				</release-event>
+			</release-event-list>
+			<barcode>602527287881</barcode>
+			<label-info-list>
+				<label-info>
+					<catalog-number>2729262</catalog-number>
+					<label id="1391bdc7-a22c-48a4-a5fb-e7b8ef6ce143">
+						<name>Universal</name>
+					</label>
+				</label-info>
+				<label-info>
+					<catalog-number>2729266</catalog-number>
+					<label id="1391bdc7-a22c-48a4-a5fb-e7b8ef6ce143">
+						<name>Universal</name>
+					</label>
+				</label-info>
+			</label-info-list>
+			<medium-list count="2">
+				<track-count>19</track-count>
+				<medium>
+					<format>CD</format>
+					<disc-list count="1" />
+					<track-list count="10" />
+				</medium>
+				<medium>
+					<format>CD</format>
+					<disc-list count="1" />
+					<track-list count="9" />
+				</medium>
+			</medium-list>
+		</release>
+		<release id="8273a144-fa1d-40b4-a18a-9176a0e86c8f" ext:score="100">
+			<title>2012-06-04: Sonisphere: Kalasatama, Helsinki, Finland</title>
+			<status>Official</status>
+			<text-representation>
+				<language>eng</language>
+				<script>Latn</script>
+			</text-representation>
+			<artist-credit>
+				<name-credit>
+					<artist id="65f4f0c5-ef9e-490c-aee3-909e7ae6b2ab">
+						<name>Metallica</name>
+						<sort-name>Metallica</sort-name>
+						<alias-list>
+							<alias sort-name="メタリカ">メタリカ</alias>
+							<alias locale="ko_KR" sort-name="메탈리카" primary="primary">메탈리카</alias>
+							<alias sort-name="Metalica">Metalica</alias>
+							<alias locale="en" sort-name="Metallica" type="Artist name"
+								primary="primary">Metallica</alias>
+						</alias-list>
+					</artist>
+				</name-credit>
+			</artist-credit>
+			<release-group id="c3330df2-8e48-4c6b-8f19-34e099d85710"
+				type="Live">
+				<primary-type>Album</primary-type>
+				<secondary-type-list>
+					<secondary-type>Live</secondary-type>
+				</secondary-type-list>
+			</release-group>
+			<date>2012-06-04</date>
+			<country>XW</country>
+			<release-event-list>
+				<release-event>
+					<date>2012-06-04</date>
+					<area id="525d4e18-3d00-31b9-a58b-a146a916de8f">
+						<name>[Worldwide]</name>
+						<sort-name>[Worldwide]</sort-name>
+						<iso-3166-1-code-list>
+							<iso-3166-1-code>XW</iso-3166-1-code>
+						</iso-3166-1-code-list>
+					</area>
+				</release-event>
+			</release-event-list>
+			<medium-list count="2">
+				<track-count>22</track-count>
+				<medium>
+					<format>Digital Media</format>
+					<disc-list count="0" />
+					<track-list count="14" />
+				</medium>
+				<medium>
+					<format>Digital Media</format>
+					<disc-list count="0" />
+					<track-list count="8" />
+				</medium>
+			</medium-list>
+		</release>
+		<release id="7134c243-1038-4022-85ed-37b854a7983f" ext:score="100">
+			<title>S&amp;M</title>
+			<status>Official</status>
+			<text-representation>
+				<language>eng</language>
+				<script>Latn</script>
+			</text-representation>
+			<artist-credit>
+				<name-credit>
+					<artist id="65f4f0c5-ef9e-490c-aee3-909e7ae6b2ab">
+						<name>Metallica</name>
+						<sort-name>Metallica</sort-name>
+						<alias-list>
+							<alias sort-name="メタリカ">メタリカ</alias>
+							<alias locale="ko_KR" sort-name="메탈리카" primary="primary">메탈리카</alias>
+							<alias sort-name="Metalica">Metalica</alias>
+							<alias locale="en" sort-name="Metallica" type="Artist name"
+								primary="primary">Metallica</alias>
+						</alias-list>
+					</artist>
+				</name-credit>
+			</artist-credit>
+			<release-group id="49371adc-871d-38f6-bb60-fd9e5af6795f"
+				type="Live">
+				<primary-type>Album</primary-type>
+				<secondary-type-list>
+					<secondary-type>Live</secondary-type>
+				</secondary-type-list>
+			</release-group>
+			<date>1999-12-22</date>
+			<country>JP</country>
+			<release-event-list>
+				<release-event>
+					<date>1999-12-22</date>
+					<area id="2db42837-c832-3c27-b4a3-08198f75693c">
+						<name>Japan</name>
+						<sort-name>Japan</sort-name>
+						<iso-3166-1-code-list>
+							<iso-3166-1-code>JP</iso-3166-1-code>
+						</iso-3166-1-code-list>
+					</area>
+				</release-event>
+			</release-event-list>
+			<barcode>4988009214412</barcode>
+			<asin>B00005G8MJ</asin>
+			<label-info-list>
+				<label-info>
+					<catalog-number>SRCS-2144</catalog-number>
+					<label id="7c614735-33ba-4bed-bbb7-89b7e72ce9bb">
+						<name>SME Records</name>
+					</label>
+				</label-info>
+				<label-info>
+					<catalog-number>SRCS-2145</catalog-number>
+					<label id="7c614735-33ba-4bed-bbb7-89b7e72ce9bb">
+						<name>SME Records</name>
+					</label>
+				</label-info>
+			</label-info-list>
+			<medium-list count="2">
+				<track-count>21</track-count>
+				<medium>
+					<format>CD</format>
+					<disc-list count="18" />
+					<track-list count="11" />
+				</medium>
+				<medium>
+					<format>CD</format>
+					<disc-list count="15" />
+					<track-list count="10" />
+				</medium>
+			</medium-list>
+		</release>
+		<release id="85ece927-8d6e-4c4f-ae8e-d2991aa4b96d" ext:score="100">
+			<title>2012-06-09: Download Festival, Castle Donington, UK</title>
+			<status>Official</status>
+			<packaging>None</packaging>
+			<text-representation>
+				<language>eng</language>
+				<script>Latn</script>
+			</text-representation>
+			<artist-credit>
+				<name-credit>
+					<artist id="65f4f0c5-ef9e-490c-aee3-909e7ae6b2ab">
+						<name>Metallica</name>
+						<sort-name>Metallica</sort-name>
+						<alias-list>
+							<alias sort-name="メタリカ">メタリカ</alias>
+							<alias locale="ko_KR" sort-name="메탈리카" primary="primary">메탈리카</alias>
+							<alias sort-name="Metalica">Metalica</alias>
+							<alias locale="en" sort-name="Metallica" type="Artist name"
+								primary="primary">Metallica</alias>
+						</alias-list>
+					</artist>
+				</name-credit>
+			</artist-credit>
+			<release-group id="e82f03cf-47fb-4e33-a22c-dfdda6cc0f2c"
+				type="Live">
+				<primary-type>Album</primary-type>
+				<secondary-type-list>
+					<secondary-type>Live</secondary-type>
+				</secondary-type-list>
+			</release-group>
+			<date>2012-06-12</date>
+			<country>GB</country>
+			<release-event-list>
+				<release-event>
+					<date>2012-06-12</date>
+					<area id="8a754a16-0027-3a29-b6d7-2b40ea0481ed">
+						<name>United Kingdom</name>
+						<sort-name>United Kingdom</sort-name>
+						<iso-3166-1-code-list>
+							<iso-3166-1-code>GB</iso-3166-1-code>
+						</iso-3166-1-code-list>
+					</area>
+				</release-event>
+			</release-event-list>
+			<barcode></barcode>
+			<label-info-list>
+				<label-info>
+					<label id="82275f26-c259-4a3e-a476-91277f1d0c3d">
+						<name>Creeping Death Music</name>
+					</label>
+				</label-info>
+			</label-info-list>
+			<medium-list count="2">
+				<track-count>22</track-count>
+				<medium>
+					<format>Digital Media</format>
+					<disc-list count="0" />
+					<track-list count="14" />
+				</medium>
+				<medium>
+					<format>Digital Media</format>
+					<disc-list count="0" />
+					<track-list count="8" />
+				</medium>
+			</medium-list>
+		</release>
+		<release id="b93dd30c-f94b-49c9-b3c1-69298cea52c2" ext:score="100">
+			<title>Reload</title>
+			<status>Official</status>
+			<packaging>Cardboard/Paper Sleeve</packaging>
+			<text-representation>
+				<language>eng</language>
+				<script>Latn</script>
+			</text-representation>
+			<artist-credit>
+				<name-credit>
+					<artist id="65f4f0c5-ef9e-490c-aee3-909e7ae6b2ab">
+						<name>Metallica</name>
+						<sort-name>Metallica</sort-name>
+						<alias-list>
+							<alias sort-name="メタリカ">メタリカ</alias>
+							<alias locale="ko_KR" sort-name="메탈리카" primary="primary">메탈리카</alias>
+							<alias sort-name="Metalica">Metalica</alias>
+							<alias locale="en" sort-name="Metallica" type="Artist name"
+								primary="primary">Metallica</alias>
+						</alias-list>
+					</artist>
+				</name-credit>
+			</artist-credit>
+			<release-group id="8fd32554-02a7-3788-a761-7012e0e75e55"
+				type="Album">
+				<primary-type>Album</primary-type>
+			</release-group>
+			<date>1997-11-18</date>
+			<country>US</country>
+			<release-event-list>
+				<release-event>
+					<date>1997-11-18</date>
+					<area id="489ce91b-6658-3307-9877-795b68554c98">
+						<name>United States</name>
+						<sort-name>United States</sort-name>
+						<iso-3166-1-code-list>
+							<iso-3166-1-code>US</iso-3166-1-code>
+						</iso-3166-1-code-list>
+					</area>
+				</release-event>
+			</release-event-list>
+			<barcode>075596212618</barcode>
+			<asin>B000005ITQ</asin>
+			<label-info-list>
+				<label-info>
+					<catalog-number>62126-1</catalog-number>
+					<label id="873f9f75-af68-4872-98e2-431058e4c9a9">
+						<name>Elektra</name>
+					</label>
+				</label-info>
+			</label-info-list>
+			<medium-list count="2">
+				<track-count>13</track-count>
+				<medium>
+					<format>12" Vinyl</format>
+					<disc-list count="0" />
+					<track-list count="7" />
+				</medium>
+				<medium>
+					<format>12" Vinyl</format>
+					<disc-list count="0" />
+					<track-list count="6" />
+				</medium>
+			</medium-list>
+		</release>
+		<release id="9a5a87f8-d7a8-4861-9ba4-21074938e7fb" ext:score="100">
+			<title>The $5.98 E.P.: Garage Days Re-Revisited</title>
+			<status>Official</status>
+			<packaging>Cardboard/Paper Sleeve</packaging>
+			<text-representation>
+				<language>eng</language>
+				<script>Latn</script>
+			</text-representation>
+			<artist-credit>
+				<name-credit>
+					<artist id="65f4f0c5-ef9e-490c-aee3-909e7ae6b2ab">
+						<name>Metallica</name>
+						<sort-name>Metallica</sort-name>
+						<alias-list>
+							<alias sort-name="メタリカ">メタリカ</alias>
+							<alias locale="ko_KR" sort-name="메탈리카" primary="primary">메탈리카</alias>
+							<alias sort-name="Metalica">Metalica</alias>
+							<alias locale="en" sort-name="Metallica" type="Artist name"
+								primary="primary">Metallica</alias>
+						</alias-list>
+					</artist>
+				</name-credit>
+			</artist-credit>
+			<release-group id="b4b44d21-2433-3518-99eb-c9b3ba68c41c"
+				type="EP">
+				<primary-type>EP</primary-type>
+			</release-group>
+			<date>1987-08-20</date>
+			<country>US</country>
+			<release-event-list>
+				<release-event>
+					<date>1987-08-20</date>
+					<area id="489ce91b-6658-3307-9877-795b68554c98">
+						<name>United States</name>
+						<sort-name>United States</sort-name>
+						<iso-3166-1-code-list>
+							<iso-3166-1-code>US</iso-3166-1-code>
+						</iso-3166-1-code-list>
+					</area>
+				</release-event>
+			</release-event-list>
+			<barcode>075596075718</barcode>
+			<label-info-list>
+				<label-info>
+					<catalog-number>60757-1</catalog-number>
+					<label id="873f9f75-af68-4872-98e2-431058e4c9a9">
+						<name>Elektra</name>
+					</label>
+				</label-info>
+			</label-info-list>
+			<medium-list count="1">
+				<track-count>5</track-count>
+				<medium>
+					<format>12" Vinyl</format>
+					<disc-list count="0" />
+					<track-list count="5" />
+				</medium>
+			</medium-list>
+		</release>
+		<release id="f4d4ba9a-bb17-49fd-91de-360c3b8f9a78" ext:score="100">
+			<title>Master of Puppets</title>
+			<status>Official</status>
+			<text-representation>
+				<language>eng</language>
+				<script>Latn</script>
+			</text-representation>
+			<artist-credit>
+				<name-credit>
+					<artist id="65f4f0c5-ef9e-490c-aee3-909e7ae6b2ab">
+						<name>Metallica</name>
+						<sort-name>Metallica</sort-name>
+						<alias-list>
+							<alias sort-name="メタリカ">メタリカ</alias>
+							<alias locale="ko_KR" sort-name="메탈리카" primary="primary">메탈리카</alias>
+							<alias sort-name="Metalica">Metalica</alias>
+							<alias locale="en" sort-name="Metallica" type="Artist name"
+								primary="primary">Metallica</alias>
+						</alias-list>
+					</artist>
+				</name-credit>
+			</artist-credit>
+			<release-group id="3d00fb45-f8ab-3436-a8e1-b4bfc4d66913"
+				type="Album">
+				<primary-type>Album</primary-type>
+			</release-group>
+			<date>2007</date>
+			<country>RU</country>
+			<release-event-list>
+				<release-event>
+					<date>2007</date>
+					<area id="1f1fc3a4-9500-39b8-9f10-f0a465557eef">
+						<name>Russia</name>
+						<sort-name>Russia</sort-name>
+						<iso-3166-1-code-list>
+							<iso-3166-1-code>RU</iso-3166-1-code>
+						</iso-3166-1-code-list>
+					</area>
+				</release-event>
+			</release-event-list>
+			<barcode>042283814196</barcode>
+			<label-info-list>
+				<label-info>
+					<catalog-number>838 141-9</catalog-number>
+					<label id="2d5aa849-a6de-4676-9681-77664bcb2504">
+						<name>ЗАО «Юниверсал Мьюзик»</name>
+					</label>
+				</label-info>
+			</label-info-list>
+			<medium-list count="1">
+				<track-count>8</track-count>
+				<medium>
+					<format>CD</format>
+					<disc-list count="1" />
+					<track-list count="8" />
+				</medium>
+			</medium-list>
+		</release>
+		<release id="94651f3a-0b6f-46f4-81e5-e4c07cca3f01" ext:score="100">
+			<title>…and Justice for All</title>
+			<status>Official</status>
+			<packaging>Jewel Case</packaging>
+			<text-representation>
+				<language>eng</language>
+				<script>Latn</script>
+			</text-representation>
+			<artist-credit>
+				<name-credit>
+					<artist id="65f4f0c5-ef9e-490c-aee3-909e7ae6b2ab">
+						<name>Metallica</name>
+						<sort-name>Metallica</sort-name>
+						<alias-list>
+							<alias sort-name="メタリカ">メタリカ</alias>
+							<alias locale="ko_KR" sort-name="메탈리카" primary="primary">메탈리카</alias>
+							<alias sort-name="Metalica">Metalica</alias>
+							<alias locale="en" sort-name="Metallica" type="Artist name"
+								primary="primary">Metallica</alias>
+						</alias-list>
+					</artist>
+				</name-credit>
+			</artist-credit>
+			<release-group id="67553e23-8dad-3792-b6f2-8fedd5650ff3"
+				type="Album">
+				<primary-type>Album</primary-type>
+			</release-group>
+			<date>1988</date>
+			<country>AR</country>
+			<release-event-list>
+				<release-event>
+					<date>1988</date>
+					<area id="0df04709-c7d8-3b55-a6ea-f3e5069a947b">
+						<name>Argentina</name>
+						<sort-name>Argentina</sort-name>
+						<iso-3166-1-code-list>
+							<iso-3166-1-code>AR</iso-3166-1-code>
+						</iso-3166-1-code-list>
+					</area>
+				</release-event>
+			</release-event-list>
+			<barcode>042283606227</barcode>
+			<label-info-list>
+				<label-info>
+					<catalog-number>836062-2</catalog-number>
+					<label id="1a181fea-ac2f-4a39-8e76-1f9a8760573b">
+						<name>Phonogram</name>
+					</label>
+				</label-info>
+				<label-info>
+					<catalog-number>836062-2</catalog-number>
+					<label id="868e106d-c956-47c7-b1e5-dc9ff452c162">
+						<name>PolyGram Discos S.A.</name>
+					</label>
+				</label-info>
+				<label-info>
+					<catalog-number>836062-2</catalog-number>
+					<label id="1b3b52a5-ef89-4f8b-8d5f-e15a7a58863b">
+						<name>Vertigo</name>
+					</label>
+				</label-info>
+			</label-info-list>
+			<medium-list count="1">
+				<track-count>9</track-count>
+				<medium>
+					<format>CD</format>
+					<disc-list count="1" />
+					<track-list count="9" />
+				</medium>
+			</medium-list>
+		</release>
+	</release-list>
+</metadata>

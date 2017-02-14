@@ -7,9 +7,9 @@ import java.sql.DriverManager;
 import java.sql.SQLException;
 
 public class ConnexionBD {
-	String url = "jdbc:mysql://localhost:3306/XMLtoDB";
+	String url = "jdbc:mysql://localhost:3306/music";
 	String utilisateur = "root";
-	String motDePasse = "ZoBaina2";
+	String motDePasse = "yacine";
 	static Connection connect;
 	static ConnexionBD conn = null; // global a toutes les instances ; créé avant l'execution du programme (Avant le premier new)
 	
