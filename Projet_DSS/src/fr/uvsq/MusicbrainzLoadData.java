@@ -9,6 +9,7 @@ import java.net.URL;
 public class MusicbrainzLoadData {
 
 	String url;
+	MusicbrainzDOMTransform musicbrainzDOMTransform = new MusicbrainzDOMTransform();
 
 	public MusicbrainzLoadData() {
 		super();
@@ -17,7 +18,7 @@ public class MusicbrainzLoadData {
 
 	public void getSongsByAuthor (String artist){
 			
-		this.url ="http://musicbrainz.org/ws/2/recording/?query=artist:"+artist+"&limit=3";
+		this.url ="http://musicbrainz.org/ws/2/recording/?query=artist:"+artist+"&limit=10";
 
 
 		try{
@@ -37,6 +38,9 @@ public class MusicbrainzLoadData {
 			}
 			urlReader.close();
 			localFile.close();
+			
+			musicbrainzDOMTransform.transformSong();
+			
 		}
 		catch(Exception e){
 			System.out.println("Erreur : " + e);
@@ -45,7 +49,7 @@ public class MusicbrainzLoadData {
 
 	
 	
-	public void getAlbumByAuthor (String artist){
+	public void getAlbumsByAuthor (String artist){
 		
 		this.url ="http://musicbrainz.org/ws/2/release/?query=artist:"+artist+"%20AND%20status:Official&limit=10";
 
@@ -62,6 +66,10 @@ public class MusicbrainzLoadData {
 			}
 			urlReader.close();
 			localFile.close();
+			
+			musicbrainzDOMTransform.transformAlbum();
+			
+			
 		}
 		catch(Exception e){
 			System.out.println("Erreur : " + e);

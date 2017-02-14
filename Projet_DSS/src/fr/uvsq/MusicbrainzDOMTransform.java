@@ -2,6 +2,7 @@ package fr.uvsq;
 
 import java.io.File;
 import java.io.IOException;
+import java.sql.SQLException;
 
 import javax.xml.parsers.DocumentBuilder;
 import javax.xml.parsers.DocumentBuilderFactory;
@@ -22,8 +23,9 @@ import org.xml.sax.SAXException;
 
 public class MusicbrainzDOMTransform {
 
-
-	public void transformSong() throws SAXException, IOException, TransformerException{
+	DataBaseOperation dbo = new DataBaseOperation();
+	
+	public void transformSong() throws SAXException, IOException, TransformerException, SQLException{
 
 		try {
 
@@ -98,7 +100,7 @@ public class MusicbrainzDOMTransform {
 			transformer.transform(source, sortie); 
 			
 
-
+			dbo.insertInSong("DOMSongResult.xml");
 
 		} catch (ParserConfigurationException e) {
 			// TODO Auto-generated catch block
@@ -110,7 +112,7 @@ public class MusicbrainzDOMTransform {
 	}
 	
 	
-	public void transformAlbum() throws  SAXException, IOException, ParserConfigurationException, TransformerException{
+	public void transformAlbum() throws  SAXException, IOException, ParserConfigurationException, TransformerException, SQLException{
 		
 		DocumentBuilderFactory factory = DocumentBuilderFactory.newInstance();
 		DocumentBuilder builder = factory.newDocumentBuilder();
@@ -168,7 +170,7 @@ public class MusicbrainzDOMTransform {
 		//sortie
 		transformer.transform(source, sortie); 
 		
-		
+		dbo.insertInAlbum("DOMAlbumResult.xml");
 		
 		
 		
